@@ -1,0 +1,57 @@
+XXL device  desktop  1400px &  up
+@media (min-width:1400px ) {
+    .container{
+        max-width: 100%;
+        margin: auto;
+        padding: 0 40px;
+        box-sizing: border-box;
+    }
+ }
+
+ /* XL device  desktop  1399px & Down  */
+ @media (max-width: 1399px ){
+   .header_section  .col-lg-6 {
+       
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+ }
+
+ /* Large device  Large Desktops desktop  1200px & Down  */
+ @media (max-width: 1200px ){
+    .header_section  .col-lg-6 {
+       
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+}
+/* Large device  desktop  992px & Down  */
+@media (max-width: 992px ){
+    .header_section  .col-lg-6 {
+       
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+}
+/* Medium device  tablets,  768px & Down  */
+@media (max-width: 768px ){
+    .header_section  .col-lg-6 {
+       
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }  
+}
+/* Small device , Mobile    576px & Down  */
+@media (max-width: 576px ){
+    .header_section  .col-lg-6 {
+       
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+}
